@@ -1,5 +1,5 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.demoapp" version="1.0.0">
-  <name>M-Lab</name>
+  <name>Carlton Leisure</name>
   <description>This apps will enable users to view lab reports on the go.</description>
   <author href="http://phonegap.com" email="support@phonegap.com">ASPL</author>
   <content src="index.html"/>
