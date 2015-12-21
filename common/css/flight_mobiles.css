@@ -1,0 +1,183 @@
+h1, h2, h3, h4, h5, h6, p, ul, label, li, form, radio, checkbox, th, input, select, table, default { margin: 0; padding: 0;}
+input, select, textarea { -moz-box-sizing: content-box;}
+* html img, * html .png { position: relative;}
+body {background:#fff; color: #2D2D2D; font-family: "Open Sans"; font-size: 12px; margin: 0; text-decoration: none;}
+img, object{width:100%; max-width:100%;}
+.right{float:right; padding:5px;}
+.wrapper{width:100%; overflow-y: visible; overflow-x: hidden;}
+/*.boddy{padding:0.9375%; width:98.0625%; float:left;}*/
+.boddy{padding:3px; width:100%; float:left; }
+.boddy-result{padding:0px; width:100%; float:left; }
+.mainb{padding:0.9375%; width:98.0625%; float:left;}
+.bottom-but{padding:0.9375%; width:98.0625%; float:left; border-bottom: solid 5px #214aa0; }
+.tops_stripss{width:100%; float:left; background:#f0f0f0; padding:5px;}
+.logo{width:auto; height:auto; float:left; margin:5px;}
+h1{font-size:18px; color:#214aa0; font-family:"Open Sans"; font-weight:bold; padding:0 0 10px;}
+.colm1{margin:0; padding:0%; font-family:"Open Sans"; font-size:18px; font-weight:bold;}
+.retun,.onway,.multi{width:25%; line-height:46px;font-size:.75em; text-align:center; float:left; color:#4c4c4c; background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e6 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e6)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e6 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#e5e5e6 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#e5e5e6 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#e5e5e6 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e6',GradientType=0 ); /* IE6-9 */
+}
+.retun{ border:1px solid #4c4c4c;border-radius: 0.4em 0 0 0.4em; width:32%;}
+.onway{ border-top:1px solid #4c4c4c;border-bottom:1px solid #4c4c4c;border-right:1px solid #4c4c4c; width:32%;}
+.multi{ border-top:1px solid #4c4c4c;border-right:1px solid #4c4c4c;border-bottom:1px solid #4c4c4c;border-radius:0 0.4em 0.4em 0; width:32%;}
+.retun.active,.onway.active,.multi.active{width:33%; line-height:46px; text-align:center; float:left; color:#fff; background:#214aa0; margin:0; padding:0;}
+
+.mfilldm {float: left; height: auto; width:100%; margin:-2px;}
+.filld {height: auto; width: 82%;}
+.mfilld {float: left; height: auto; width: 82%;}
+.mgrid {background: none; border: 1px solid #fff; color: #2D2D2D; font-size: 16px; font-weight: bold; padding: 0; margin: 1px 0 0 35px; text-align: left;  text-decoration: none; width:87%;}
+.mform {float: left; padding: 6px 0 8px; margin:10px 0; width:96%;  border-radius: 5px; border: 4px solid #C1D5FF; color: #000000; height:20px;}
+.mformg {float: left; padding: 6px 0 8px; margin:0; width:96%;  border-radius: 5px; border: 4px solid #C1D5FF; color: #000000; height:20px;}
+
+.mmain{width:100%; padding:0px; margin:9px;}
+.cale-m{ height:45px;  border: 1px solid #BDBDBD; background-color:#ffffff /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e6 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e6)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e6 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#e5e5e6 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#e5e5e6 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#e5e5e6 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e6',GradientType=0 ); /* IE6-9 */}
+
+.cale_outerm{ box-shadow: 0 2px 0 #666666; float:left; position:relative; width:139px; height:46px; overflow:hidden; margin:2% 01% 0 0; display:inline; padding:5px; border-radius:5px; font-family:"Open Sans", Geneva, sans-serif; }
+.cale_outer{float:left; position:relative; width:43%; overflow:hidden; margin:2% 2% 0; display:inline; background:#bdbdbd; padding:0 0 .4%; border-radius:0px;}
+.cale_outerimg{float:left; position:absolute; min-width:25%; width:25%; top:2px; left:2px;}
+.lft { float: left; font-family:"Open Sans"; color:#666666;}
+.colm_lft,.colm_rgt{float:left;}
+.colm_lft{width:25%; text-align:center; margin:4%; font-size:0.75em;}
+.colm_rgt{width:62%;}
+.cdgray { color: #2d2d2d;}
+.icon{ margin:0 4%; }
+.f11 {  font-family: "Open Sans"; font-size: 9px; left: 85px; position: relative; top: -45px;}
+.f12 { font-size: 12px ; font-family:"Open Sans";}
+.cgrey { color: #666666 }
+.month-dates,.days,.ner,.depa{ float:left; overflow:hidden;}
+.depa{font-size:12px; bottom:5px; left:2%; position: absolute; font-weight:normal; color:#666666;}
+.days{font-size:12px;left:62%; top:32%; position: absolute; font-weight:normal; color:#666666;}
+.month-dates{font-size:12px;left: 62%; position: absolute; font-weight:bold; color:#214aa0;}
+.ner {color: #214AA0; font-size: 43px; font-weight: normal; left: 26%; line-height: 40px; position: absolute; top: 0;}
+.travm_outerimg{float:left; position:absolute; /*min-width:25%;*/ top:4px; left:33%;}
+.travm{float:left; position:relative; width:28%; overflow:hidden; margin:2% 2% 0; display:inline; padding:0 0 .4%; border-radius:4px; }
+.travm-m{ height:59px; float:left; position:relative; width:94px; overflow:hidden; margin:4px; display:inline; background-color:#214aa0; padding:1px; }
+.trvtxt {color: #fff; font-size: 21px; font-weight: normal; left: 52%; top:18%;  position: absolute;}
+.smltrvtxt{font-size:12px; bottom:0%; left:11%; position: absolute; font-weight:normal; color:#fff; top:42px; }
+.ecotrvtxt{font-size:12px; bottom:0%; left:23%; position: absolute; font-weight:normal; color:#fff; top:42px; }
+.more_outerimg{float:left; position:absolute; min-width:25%; top:20px; left:33%;}
+.cale_imgm{float:left; position:absolute; top:4px; left:6px;}
+.srchbutn { border: medium none; bottom: 0; color: #FFFFFF; margin: 0 125px; cursor: pointer;float: left; font-size: 30px; font-weight: normal; height: 45px; line-height: 45px;  right: 0;text-align: center;  text-decoration: none;text-transform: none; width: 184px;}
+.round { border-radius: 5px;}
+.butoback { background: linear-gradient(to bottom, #FF781B 0%, #EE4001 50%, #D23A02 100%) repeat scroll 0 0 rgba(0, 0, 0, 0); box-shadow: 0 0 2px 1px #2d2d2d;}
+.micon-src{float:left; position:absolute;  left:12px;}
+/*******************************************result.css**********************************************/
+
+.mobile-text { color: rgb(45, 45, 45); text-align: right; float: right; font-family: "Open Sans";font-size: 12px; font-weight: normal;height: auto;line-height: 20px; margin: 0px; padding: 0px; text-decoration: none;  width: 100%;}
+.mobile-result{width:100%; line-height:25px; text-align:left; float:left; color:#fff; background:#214aa0; margin:0; padding:5px; border-bottom:2px solid #009edb; border-top:2px solid #009edb; font-size:14px;}
+.mobile-blue{width:100%; line-height:25px; text-align:left; float:left; color:#fff; background:#214aa0; margin:0; padding:5px; border-bottom:2px solid #009edb; font-size:14px;}
+.mobile-plan {float: left; height: 27px; margin:0px; width: 30px;}
+.mobile-price {float: right; height: 27px; margin:0px -6px; width: 175px; font-size:24px; color:#feec27;}
+.mobile-inbound{width:100%; height:20px; text-align:left; float:left; color:#fff; background:#c0d0ed; margin:0; padding:5px; font-size:12px; border-top:1px solid #cccccc;}
+.mobile-inb-icon {float: left; height: 20px; width: 20px;}
+.mobile-text-inb { color: rgb(45, 45, 45); text-align:left; float: left; font-family: "Open Sans";font-size: 12px; font-weight: normal;height: auto;line-height: 20px; margin:0 0 0 5px; padding: 0px; text-decoration: none;  width: 92%;}
+.mobile-whiteback{width:100%; line-height:25px; text-align:left; float:left; color:#fff; background:#fff; margin:0; padding:5px; font-size:14px;}
+.mobile-text-radio { color: rgb(45, 45, 45); text-align:left; float: left; font-family: "Open Sans";font-size: 12px; font-weight: normal;height: auto;line-height: 20px; margin:0; padding: 0px; text-decoration: none;  width: 95%;}
+.mobile-text-radio span { color: #999999; font-weight: bold;height: auto; text-decoration: none; }
+.mobile-radio {float: left; margin:0px;}
+.mobile-text-stop { color: rgb(45, 45, 45); text-align:left; float: left; font-family: "Open Sans";font-size: 12px; font-weight: normal;height: auto;line-height: 20px; margin:-4px 0 0 5px; padding: 0px; text-decoration: none;  width: 85%;}
+.mobile-text-stop span { color: #214aa0; font-weight: bold; height: auto; text-decoration: none; }
+.mobile-text-stop b { color: #999999; font-weight: bold; height: auto; text-decoration: none; }
+.mobile-text-stop p { color: #ff5300; font-weight: normal; height: auto; text-decoration: none; }
+.mobile-graybot{width:100%; line-height:25px; text-align:left; float:left; color:#fff; background:#fff; margin:0; padding:5px; font-size:14px; border-bottom:1px solid #ccc;}
+.mobile-filter {float: left; height: 31px; margin:0px; width: 112px;}
+.mobile-filter span {float: left; height: 31px; margin:0px; width: 78px;}
+.mobile-filtericon { float: left; font-size: 12px;  font-weight: bold; height: 23px; text-align: center; text-decoration: none;width: 24px; margin: 0 0 0 10px;}
+.mobile-filterline { float: left; font-size: 12px;  font-weight: bold; height: 30px; text-align: center; text-decoration: none;width: 5px; margin: 0 0 0 10px;}
+.mobile-width{ float:left; color:#fff; background:#214aa0; margin:0; font-size:12px; }
+.mobile-search{padding:0; width:76px; height:28px; float:right; border-bottom: solid 5px #214aa0; }
+.mobile-srchbutn { border: medium none; bottom: 0; color: #FFFFFF; cursor: pointer;float: left; font-size: 14px; font-weight: bold; height: 28px;  font-family: "Open Sans"; text-align: center;  text-decoration: none;text-transform: none; width: 87px; margin: 0 0 0 -21px; line-height:28px;}
+
+/*******************************************booking.css**********************************************/
+
+.mobile-booking-text { color: #214aa0; text-align:left; float: left; font-family: "Open Sans";font-size: 12px; font-weight: bold;height: auto;line-height: 20px; margin:0; padding: 0px; text-decoration: none;  width: 95%;}
+.mobile-booking-dep { color: rgb(45, 45, 45); text-align:left; float: left; font-family: "Open Sans";font-size: 12px; font-weight: normal;height: auto;line-height: 20px; margin:0px; padding: 0px; text-decoration: none;  width: 85%;}
+.mobile-booking-dep span { color: #214aa0; font-weight: bold; height: auto; text-decoration: none; }
+.mobile-booking-dep b { color: #999999; font-weight: bold; height: auto; text-decoration: none; }
+.mobile-booking-dep p { color: #2d2d2d; font-weight: normal; height: auto; text-decoration: none; }
+.mobile-booking-total {float: left; height: auto; width: 45%; color:#2d2d2d; font-weight:bold; font-size: 14px;}
+.mobile-booking-rgttxt {float: right; height: auto; width: 45%; color:#2d2d2d; font-weight:bold; text-align:right; font-size: 14px; margin: 0 7px;}
+.mobile-booking-backgr{width:100%; height:20px; text-align:left; float:left; color:#fff; background-color:#e4e9f3;  padding:5px; margin:5px 0; font-size:12px; border-top:1px solid #cccccc;}
+.mobile-Duration{width:100%; height:8px; text-align:left; float:left; color:#fff; background:#d8e1f2; margin:0px; padding:5px; font-size:12px; border-top:2px solid #ffffff;}
+.mobile-booking-rgtnew {float: right; height: auto; width: 45%; color:#2d2d2d; font-weight:normal; text-align:right; font-size: 13px; margin: -6px 7px;}
+.mobile-booking-arr { color: rgb(45, 45, 45); text-align:left; float: left; font-family: "Open Sans";font-size: 12px; font-weight: normal;height: auto;line-height: 20px; margin:0; padding: 0px; text-decoration: none;  width: 100%; border-bottom: 1px dashed rgb(204, 204, 204);}
+.mobile-booking-arr span { color: #999999; text-align:left; float: left; font-family: "Open Sans";font-size: 12px; font-weight: bold;height: auto;}
+.mobile-booking-name { color: #214aa0; text-align:left; float: left; font-family: "Open Sans";font-size: 12px; font-weight: bold;height: auto;line-height: 20px; margin:-4px 0 0 5px; padding: 0px; text-decoration: none;  width: 56%;}
+.mobile-booking-bagg {float: right; height: auto; width: 29%; color:#6281c4; font-weight:normal; text-align:right; font-size: 13px; margin: -8px 7px;}
+.mobile-booking-change { color: rgb(45, 45, 45); text-align:left; float: left; font-family: "Open Sans";font-size: 12px; font-weight: normal;height: auto;line-height: 20px; margin:0; padding: 0px; text-decoration: none;  width: 100%; border-bottom: 1px solid rgb(204, 204, 204); border-top: 1px solid rgb(204, 204, 204);}
+.mobile-booking-bord{width:100%; line-height:25px; text-align:left; float:left; color:#fff; background:#fff; margin:0; padding:5px; font-size:14px; border-bottom: 1px solid rgb(204, 204, 204);}
+.mobile-booking-call{width:100%; line-height:25px; text-align:left; float:left; color:#fff; background:#214aa0; margin:0; padding:5px 0; border-top:2px solid #009edb; font-size:14px;}
+.mobile-booking-blue{width:100%; line-height:25px; text-align:left; float:left; color:#fff; background:#214aa0; margin:0; padding:5px; font-size:14px;}
+.mobile-booking-numb { border: medium none; bottom: 0; color: #FFFFFF; cursor: pointer;float: right; font-size: 14px; font-weight: bold; font-family: "Open Sans"; text-align: center;  text-decoration: none;text-transform: none; width: 313px; height: 38px; margin: 10px; line-height:28px;}
+.mobile-booking-tel {float: left; height: 34px; margin:2px; width: 34px;}
+.mobile-booking-m{float: left; height: 34px; margin:-2px; width: 89%; font-size:24px; line-height:39px; text-shadow: 1px 1px 1px rgb(0, 0, 0); }
+.mobile-booking-m span{float: left; height: 34px; margin:3px;font-size:16px;  }
+
+/*******************************************many travelers.css**********************************************/
+.mobile-trav{width:100%; float:left; background:#f0f0f0; padding:5px; box-shadow: 0 2px #777; height:32px;}
+.mobile-trav p{float:left; font-weight:bold; font-size:16px; color:#676766; margin:5px;}
+.mobile-travelr { text-align: right; float: right; font-family: "Open Sans";font-size: 12px; font-weight: normal;height: 20px;}
+.mobile-colm{margin:20px; padding:0%; font-family:"Open Sans"; font-size:18px; font-weight:bold;}
+.mobile-ad,.mobile-chi,.mobile-inf{width:25%; line-height:46px;font-size:.75em; text-align:center; float:left; color:#4c4c4c; background: #ffffff;}
+.mobile-ad{ border:1px solid #4c4c4c;border-radius: 0.4em 0 0 0.4em; width:6%; font-size:30px; font-weight:bold;}
+.mobile-chi{ border-top:1px solid #4c4c4c;border-bottom:1px solid #4c4c4c;border-right:1px solid #4c4c4c; width:6%; font-size:30px; font-weight:normal; background:#e6e6e6;}
+.mobile-inf{ border-top:1px solid #4c4c4c;border-right:1px solid #4c4c4c;border-bottom:1px solid #4c4c4c;border-radius:0 0.4em 0.4em 0; width:6%; font-size:30px; font-weight:bold;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***
+Tablet Layout: 768px.
+Inherits styles from: Default Layout.
+***/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+/***
+Mobile Layout: 320px.
+Inherits styles from: Default Layout.
+***/
+@media only screen and (max-width: 767px) {
+
+}
+
+/***
+Wide Mobile Layout: 480px.
+Inherits styles from: Default Layout, Mobile Layout.
+***/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
